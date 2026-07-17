@@ -18,7 +18,7 @@ Placement for Robust 3D Instance Segmentation</h1>
 </p>
 
 <p align="center">
-  **Overall framework of ACGP.** Given a 3D scene and an instance database, ACGP selects instances via category-balanced sampling, queries their category-conditioned placement types, and places them at geometrically valid locations using occupancy- and support-aware validation to generate augmented scenes. **The pseudo-code** on the right summarizes the complete pipeline of instance-level augmented scene generation.
+  <strong>Overall framework of ACGP.</strong> Given a 3D scene and an instance database, ACGP selects instances via category-balanced sampling, queries their category-conditioned placement types, and places them at geometrically valid locations using occupancy- and support-aware validation to generate augmented scenes. <strong>The pseudo-code</strong> on the right summarizes the complete pipeline of instance-level augmented scene generation.
 </p>
 
 <p align="center">
