@@ -32,14 +32,14 @@ Placement for Robust 3D Instance Segmentation</h1>
 <details>
 <summary><b>Update:  ACGP achieves the SOTA performance on ScanNet200 test set for 3D instance segmentation benchmark. Test scores accessed on 12 July, 2026. <a href="https://kaldir.vc.in.tum.de/scannet_benchmark/scannet200_semantic_instance_3d" target="_blank">ScanNet200 test set</a> </b> (The results are provided by official based on this repo)</summary>
 
-![image](./docs/images/scannet200_test_benchmark.png.png)
+![image](./docs/images/scannet200_test_benchmark.png)
 </details>
 
 
 <details>
 <summary><b>ACGP achieves the SOTA performance on ScanNet++ V2 test set for 3D instance segmentation. Test scores accessed on 10 July, 2026. <a href="https://kaldir.vc.in.tum.de/scannetpp/benchmark/insseg" target="_blank">ScanNet++ V2 test set</a></b> </summary>
 
-![image](./docs/images/scannet200_test_benchmark.png.png)
+![image](./docs/images/scannetpp_benchmark.png)
 </details>
 
 
