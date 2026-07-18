@@ -28,7 +28,29 @@ Placement for Robust 3D Instance Segmentation</h1>
 
 ## 📢 News
 
-- 2026-07-10: Code release.
+
+<details>
+<summary><b>Update:  ACGP achieves the SOTA performance on ScanNet200 test set for 3D instance segmentation benchmark. Test scores accessed on 12 July, 2026. <a href="https://kaldir.vc.in.tum.de/scannet_benchmark/scannet200_semantic_instance_3d" target="_blank">ScanNet200 test set</a> </b> (The results are provided by official based on this repo)</summary>
+
+![image](./docs/leadboard.png)
+</details>
+
+
+<details>
+<summary><b>ACGP achieves the SOTA performance on ScanNet++ V2 test set for 3D instance segmentation. Test scores accessed on 10 July, 2026. <a href="https://kaldir.vc.in.tum.de/scannetpp/benchmark/insseg" target="_blank">ScanNet++ V2 test set</a></b> </summary>
+</details>
+
+
+## :floppy_disk: ACGP Trained Results
+| Model | Benchmark | mAP | AP50 | AP25 | Tensorboard | Exp Record | Model |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| SGIFormer | ScanNet++ V2 Test | 29.9 | 45.7 | - | - | - | - |
+| SGIFormer | ScanNet++ Val | 23.9 | 37.5 | - | [Link](https://huggingface.co/RayYoh/SGIFormer/tensorboard) | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannetpp-sgiformer-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannetpp-sgiformer-spunet/model/model_best.pth) |
+| SGIFormer | ScanNet Val | 58.9 | 78.4 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet-sgiformer-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet-sgiformer-spunet/model/model_best.pth) |
+| SGIFormer-L | ScanNet Val | 61.0 | 81.2 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet-sgiformer-l-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet-sgiformer-l-spunet/model/model_best.pth) |
+| SGIFormer | ScanNet200 Val | 28.9 | 38.6 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet200-sgiformer-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet200-sgiformer-spunet/model/model_best.pth) |
+| SGIFormer-L | ScanNet200 Val | 29.2 | 39.4 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet-sgiformer-l-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet-sgiformer-l-spunet/model/model_best.pth) |
+
 
 ## Setup
 
