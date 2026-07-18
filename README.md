@@ -46,12 +46,20 @@ Placement for Robust 3D Instance Segmentation</h1>
 ## :floppy_disk: ACGP Trained Results
 | Benchmark | Model | mAP | AP50 | AP25 | Tensorboard | Exp Record | Model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ScanNet++ V2 Test | SGIFormer | 29.9 | 45.7 | - | - | - | - |
-| ScanNet++ Val | SGIFormer | 23.9 | 37.5 | - | [Link](https://huggingface.co/RayYoh/SGIFormer/tensorboard) | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannetpp-sgiformer-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannetpp-sgiformer-spunet/model/model_best.pth) |
-| ScanNet Val | SGIFormer | 58.9 | 78.4 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet-sgiformer-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet-sgiformer-spunet/model/model_best.pth) |
-| ScanNet Val | SGIFormer-L | 61.0 | 81.2 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet-sgiformer-l-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet-sgiformer-l-spunet/model/model_best.pth) |
-| ScanNet200 Val | SGIFormer | 28.9 | 38.6 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet200-sgiformer-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet200-sgiformer-spunet/model/model_best.pth) |
-| ScanNet200 Val | SGIFormer-L | 29.2 | 39.4 | - | - | [Link](https://huggingface.co/RayYoh/SGIFormer/raw/main/insseg-scannet-sgiformer-l-spunet/train.log) | [Link](https://huggingface.co/RayYoh/SGIFormer/blob/main/insseg-scannet-sgiformer-l-spunet/model/model_best.pth) |
+| ScanNet++ V2 Test | SGIFormer | 34.3 | 50.4 | 48.0 | - | - | - |
+| ScanNet++ Val | SGIFormer | 35.4 | 52.4 | 61.4 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/SGIFormer/events.out.tfevents.1765376744) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/SGIFormer/train.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/SGIFormer/sgiformer_scannetpp.pth) |
+| ScanNet200 Val | SGIFormer-L | 32.9 | 43.3 | 49.3 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/SGIFormer/events.out.tfevents.1778374769) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/SGIFormer/train.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/SGIFormer/sgiformer_scannet200.pth) |
+| ScanNet200 Val | ISBNet | 26.2 | 34.4 | 39.2 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/ISBNet/events.out.tfevents.1763898474) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/ISBNet/20251123_194754.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/ISBNet/isbnet_scannet200.pth) |
+| ScanNet200 Val | TD3D | 24.2 | 36.2 | 42.2 | - | - | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/TD3D/td3d_scannet200.pth) |
+| ScanNet Val | SGIFormer-L | 61.6 | 81.6 | 89.2 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/SGIFormer/events.out.tfevents.1774235401) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/SGIFormer/train.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/SGIFormer/sgiformer_scannetv2.pth) |
+| ScanNet Val | ISBNet | 56.1 | 73.6 | 81.8 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/ISBNet/events.out.tfevents.1781668966) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/ISBNet/20260617_120246.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/ISBNet/isbnet_scannetv2.pth) |
+| ScanNet Val | SoftGroup | 44.0 | 65.3 | 77.9 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/SoftGroup/events.out.tfevents.1764642550) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/SoftGroup/20251202_102910.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/SoftGroup/softgroup_scannetv2.pth) |
+| ScanNet Val | TD3D | 47.6 | 71.3 | 82.1 | - | - | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannetv2/TD3D/td3d_scannetv2.pth) |
+| S3DIS Area5 | ISBNet | 58.2 | 71.3 | 77.7 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/s3dis/ISBNet/events.out.tfevents.1763992796) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/s3dis/ISBNet/train.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/s3dis/ISBNet/isbnet_s3dis.pth) |
+| S3DIS Area5 | SoftGroup | 53.5 | 66.7 | 73.7 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/s3dis/SoftGroup/events.out.tfevents.1764510534) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/s3dis/SoftGroup/20251130_214854.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/s3dis/SoftGroup/softgroup_s3dis.pth) |
+| S3DIS Area5 | TD3D | 53.1 | 68.2 | 75.9 | - | - | [Link](https://huggingface.co/yangrk/ACGP/blob/main/s3dis/TD3D/td3d_s3dis.pth) |
+| STPLS3D Val | ISBNet | 52.1 | 68.9 | 76.0 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/stpls3d/ISBNet/events.out.tfevents.1764129772) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/stpls3d/ISBNet/20251126_120252.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/stpls3d/ISBNet/isbnet_stpls3d.pth) |
+
 
 
 ## Setup
