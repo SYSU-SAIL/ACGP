@@ -46,8 +46,9 @@ Placement for Robust 3D Instance Segmentation</h1>
 ## :floppy_disk: ACGP Trained Results
 | Benchmark | Model | mAP | AP50 | AP25 | Tensorboard | Exp Record | Model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ScanNet++ V2 Test | SGIFormer | 34.3 | 50.4 | 48.0 | - | - | - |
+| ScanNet++ Val | Volt-SPFormer | 37.2 | 56.3 | 64.6 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/Volt-SPFormer/events.out.tfevents.1780793811) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/Volt-SPFormer/train.log) | - |
 | ScanNet++ Val | SGIFormer | 35.4 | 52.4 | 61.4 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/SGIFormer/events.out.tfevents.1765376744) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/SGIFormer/train.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet%2B%2B/SGIFormer/sgiformer_scannetpp.pth) |
+| ScanNet200 Val | Volt-SPFormer | 39.6 | 50.2 | 55.2 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/Volt-SPFormer/events.out.tfevents.1780750167) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/Volt-SPFormer/train.log) | - |
 | ScanNet200 Val | SGIFormer-L | 32.9 | 43.3 | 49.3 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/SGIFormer/events.out.tfevents.1778374769) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/SGIFormer/train.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/SGIFormer/sgiformer_scannet200.pth) |
 | ScanNet200 Val | ISBNet | 26.2 | 34.4 | 39.2 | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/ISBNet/events.out.tfevents.1763898474) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/ISBNet/20251123_194754.log) | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/ISBNet/isbnet_scannet200.pth) |
 | ScanNet200 Val | TD3D | 24.2 | 36.2 | 42.2 | - | - | [Link](https://huggingface.co/yangrk/ACGP/blob/main/scannet200/TD3D/td3d_scannet200.pth) |
