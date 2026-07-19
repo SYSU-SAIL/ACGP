@@ -152,6 +152,12 @@ We provide the experiment directories, including configs, logs, and checkpoints.
 If you use our work in your research, please use the following BibTeX entry.
 
 ```
+@misc{yang2026acgp,
+  title  = {Beyond Context Bias: Adaptive Instance Placement for Robust 3D Instance Segmentation},
+  author = {Rongkun Yang, Ye Zhang, Longguang Wang, Zhiheng Fu, Lian Xu, Yulan Guo},
+  year   = {2026},
+  url    = {https://github.com/SYSU-SAIL/ACGP}
+}
 
 ```
 
